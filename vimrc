@@ -7,6 +7,7 @@ set tabstop=2
 set shiftwidth=2
 set hlsearch
 set incsearch
+set noswapfile
 
 auto BufRead,BufNewFile *.module  set filetype=php
 auto BufRead,BufNewFile *.install set filetype=php
