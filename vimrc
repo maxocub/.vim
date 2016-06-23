@@ -8,6 +8,7 @@ set shiftwidth=2
 set hlsearch
 set incsearch
 set noswapfile
+"set colorcolumn=80
 
 auto BufRead,BufNewFile *.module  set filetype=php
 auto BufRead,BufNewFile *.install set filetype=php
@@ -31,14 +32,15 @@ hi Constant     ctermfg=magenta ctermbg=none   cterm=bold
 hi Comment      ctermfg=black   ctermbg=none   cterm=bold
 hi NonText      ctermfg=black   ctermbg=none   cterm=bold
 hi LineNr       ctermfg=black   ctermbg=none   cterm=bold
-hi Folded       ctermbg=black   ctermfg=blue   cterm=bold
-hi Visual       ctermbg=black   ctermfg=blue   cterm=bold
 hi Todo         ctermfg=white   ctermbg=blue   cterm=bold
 hi IncSearch    ctermfg=white   ctermbg=blue   cterm=bold
 hi Search       ctermfg=blue    ctermbg=black  cterm=bold
 hi StatusLine   ctermfg=blue    ctermbg=black  cterm=bold
 hi StatusLineNC ctermfg=blue    ctermbg=black  cterm=none
+hi Folded       ctermfg=blue    ctermbg=black  cterm=bold
+hi Visual       ctermfg=blue    ctermbg=black  cterm=bold
 hi VertSplit    ctermfg=black   ctermbg=black  cterm=none
+hi ColorColumn  ctermfg=red     ctermbg=black  cterm=bold
 
 noremap  <Up>    <Nop>
 noremap  <Down>  <Nop>
