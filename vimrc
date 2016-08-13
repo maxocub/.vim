@@ -8,7 +8,8 @@ set shiftwidth=2
 set hlsearch
 set incsearch
 set noswapfile
-"set colorcolumn=80
+set background=dark
+
 
 auto BufRead,BufNewFile *.module  set filetype=php
 auto BufRead,BufNewFile *.install set filetype=php
