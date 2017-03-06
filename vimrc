@@ -1,4 +1,4 @@
-autocmd! bufwritepost .vimrc source %
+autocmd! bufwritepost $HOME/.vim/vimrc source $HOME/.vim/vimrc
 
 set number
 set laststatus=2
@@ -41,7 +41,6 @@ hi StatusLineNC ctermfg=blue    ctermbg=black  cterm=none
 hi Folded       ctermfg=blue    ctermbg=black  cterm=bold
 hi Visual       ctermfg=blue    ctermbg=black  cterm=bold
 hi VertSplit    ctermfg=black   ctermbg=black  cterm=none
-hi ColorColumn  ctermfg=red     ctermbg=black  cterm=bold
 
 noremap  <Up>    <Nop>
 noremap  <Down>  <Nop>
