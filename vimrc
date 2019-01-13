@@ -3,19 +3,14 @@ autocmd! bufwritepost $HOME/.vim/vimrc source $HOME/.vim/vimrc
 set number
 set laststatus=2
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 set noswapfile
 set background=dark
-
-
-auto BufRead,BufNewFile *.module  set filetype=php
-auto BufRead,BufNewFile *.install set filetype=php
-auto BufRead,BufNewFile *.inc     set filetype=php
 
 match ErrorMsg '\s\+$'
 
