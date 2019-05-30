@@ -14,6 +14,8 @@ set background=dark
 
 match ErrorMsg '\s\+$'
 
+set path+=**
+
 syntax on
 
 hi Normal       ctermfg=white   ctermbg=none   cterm=bold
