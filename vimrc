@@ -11,6 +11,7 @@ set ignorecase
 set smartcase
 set noswapfile
 set background=dark
+set colorcolumn=101
 
 match ErrorMsg '\s\+$'
 
@@ -40,6 +41,7 @@ hi StatusLineNC ctermfg=blue    ctermbg=black  cterm=none
 hi Folded       ctermfg=blue    ctermbg=black  cterm=bold
 hi Visual       ctermfg=blue    ctermbg=black  cterm=bold
 hi VertSplit    ctermfg=black   ctermbg=black  cterm=none
+hi ColorColumn  ctermfg=black   ctermbg=black  cterm=none
 
 noremap  <Up>    <Nop>
 noremap  <Down>  <Nop>
